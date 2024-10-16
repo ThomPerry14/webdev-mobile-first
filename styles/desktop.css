@@ -15,7 +15,7 @@ header h1 a:hover {
   text-decoration: underline;
 }
 #logo {
-  padding: 10px;
+  padding: 10px 10px 15px 10px;
 }
 nav li a:hover {
   color: #1c4cae;
@@ -26,6 +26,7 @@ nav ul {
 }
 nav ul li {
   display: inline;
+  margin-top: 12px;
   padding-left: 10px;
   padding-right: 10px;
   border: none;
@@ -33,6 +34,9 @@ nav ul li {
 }
   nav li:first-child {
   border-left: none;
+}
+nav ul li a{
+  margin-top:0px;
 }
 main{
   display: flex;
